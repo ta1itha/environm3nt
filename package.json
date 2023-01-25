@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ta1itha/environm3nt#readme",
   "devDependencies": {
+    "eslint": "^8.32.0",
     "prettier": "^2.8.3"
   },
   "dependencies": {
