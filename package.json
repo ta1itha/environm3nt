@@ -1,6 +1,6 @@
 {
   "name": "environm3nt",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "setting up husky and eslint and prettier",
   "type": "module",
   "main": "src/index.js",
