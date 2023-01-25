@@ -1,12 +1,14 @@
 {
   "name": "environm3nt",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "setting up husky and eslint and prettier",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/ta1itha/environm3nt#readme",
   "devDependencies": {
+    "eslint": "^8.32.0",
     "prettier": "^2.8.3"
   },
   "dependencies": {
