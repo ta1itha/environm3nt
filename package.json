@@ -1,0 +1,27 @@
+{
+  "name": "environm3nt",
+  "version": "0.0.2",
+  "description": "setting up husky and eslint and prettier",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ta1itha/environm3nt.git"
+  },
+  "author": "Talitha Kruger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ta1itha/environm3nt/issues"
+  },
+  "homepage": "https://github.com/ta1itha/environm3nt#readme",
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.0"
+  }
+}
